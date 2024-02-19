@@ -1,13 +1,47 @@
+@font-face {
+    font-family: 'monogram-extended';
+    src: url(../font/monogram-extended.ttf);
+}
+
 body {
     margin: 0px 0px 0px 0px;
-    background-color: black;
-    color : gray;
-    font-size: 24pt;
+    background-color: #272727;
+    background-image: url(../img/code-background.png);
+    color : #829399;
+    font-size: 32pt;
+    font-family: monogram-extended;
+    line-height: 20pt;
 }
 
 .bar {
+    color: #272727;
+    display:flex;
     margin: 0px 0px 0px 0px;
     background-color: #829399;
     width: 100%;
     height: 57px;
+    text-anchor: end;
+    align-items: center;
+}
+
+.bar-yellow {
+    background-color: #EAC435;
+    width: 83px;
+}
+.bar-cyan {
+    background-color: #723ca8;
+    width: 83px;
+    margin-right: 20px;
+}
+
+.logo {
+    background-image: url(../img/code-icon-anaglyph.png);
+    background-repeat: no-repeat;
+    background-size: 57px;
+    background-color: #272727;
+    width: 64px;
+    height: 57px;
+}
+.logo:hover {
+    cursor: pointer;
 }
