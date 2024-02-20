@@ -23,6 +23,23 @@ textarea {
     color: #829399;
 }
 
+input {
+    margin: 20px;
+    padding: 20px 20px 20px 20px;
+    background-color: #829399;
+    border: 0px;
+    font-size: 32pt;
+    font-family: monogram-extended;
+    line-height: 20pt;
+    box-shadow: #EAC435 10px 10px;
+    border-radius: 3px;
+}
+
+input:hover {
+    background-color: #723ca8;
+    cursor: pointer;
+}
+
 .bar {
     color: #272727;
     display:flex;
@@ -47,6 +64,9 @@ textarea {
 .logo {
     background-image: url(../img/code-icon-anaglyph.png);
     background-repeat: no-repeat;
+    box-shadow: none;
+    margin: 0px;
+    border-radius: 0px;
     background-size: 57px;
     background-color: #272727;
     width: 64px;
@@ -54,6 +74,7 @@ textarea {
 }
 
 .logo:hover {
+    background-color: black;
     cursor: pointer;
 }
 
